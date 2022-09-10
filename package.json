@@ -25,7 +25,10 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "splitio",
+    "split",
+    "split.io"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
@@ -75,5 +78,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "@splitsoftware/splitio": "^10.21.1"
   }
 }
